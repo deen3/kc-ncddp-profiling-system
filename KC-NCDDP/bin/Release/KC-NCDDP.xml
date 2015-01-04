@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KC-NCDDP
+</name>
+</assembly>
+<members>
+<member name="T:KC_NCDDP.kalahiDataSet.residentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSet.residentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSet.residentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSetTableAdapters.residentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(KC_NCDDP.kalahiDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(KC_NCDDP.kalahiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(KC_NCDDP.kalahiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.UpdateAll(KC_NCDDP.kalahiDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:KC_NCDDP.kalahiDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
